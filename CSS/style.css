@@ -1,0 +1,126 @@
+/* Color Palette */
+:root {
+    --background-color: #F4F2EC;
+    --header-button-color: #550000;
+    --subheading-lang-color: #AB6771;
+    --subheading-low-color: #5D5D5D;
+    --text-color: #E98074;
+    --link-color: #D8C3A4;
+    --link-hover-color: #0000FF; /* Blue */
+}
+
+/* General Styles */
+body {
+    background-color: var(--background-color);
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    padding-top: 56px; /* Adjust for fixed navbar if you add it */
+}
+
+h1, h2, h3, h4, h5, h6, .logo a {
+    font-family: 'Merriweather', serif;
+}
+
+.logo a {
+    color: var(--header-button-color);
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.section-title, .section-subtitle {
+     color: var(--subheading-lang-color);
+     font-weight: 700;
+     margin-bottom: 1.5rem;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+/* Header & Navigation */
+.navigation-links .btn-nav {
+    color: var(--header-button-color);
+    margin: 0 15px;
+    font-weight: 500;
+    border: none;
+}
+.navigation-links .btn-nav:hover {
+    color: var(--text-color);
+    text-decoration: none;
+}
+.navigation-links .btn-nav.active {
+    font-weight: 700;
+    color: var(--text-color);
+}
+.lang-switcher a {
+    color: var(--subheading-lang-color);
+    font-weight: 500;
+}
+.lang-switcher a.active {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-section { padding: 6rem 0; }
+.hero-title { color: var(--header-button-color); font-weight: 700; font-size: 3rem; }
+.hero-subtitle { font-size: 1.6rem; color: var(--subheading-lang-color); max-width: 800px; margin: 1rem auto 0; }
+
+/* About Section */
+.about-text { font-size: 1.1rem; line-height: 1.8; margin-bottom: 2rem; }
+.subheading-low-title { color: var(--text-color); font-size: 1.2rem; margin-bottom: 1rem; }
+.subheading-low-title a { color: var(--subheading-low-color); font-weight: bold; text-decoration: none; }
+.course-text { font-size: 1.1rem; }
+.subheading-low { color: var(--subheading-low-color); font-weight: bold; }
+
+/* Work Section */
+.portfolio-link a {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--header-button-color);
+    border-bottom: 2px solid var(--link-color);
+}
+.portfolio-link a:hover {
+    color: var(--subheading-lang-color);
+    border-bottom-color: var(--subheading-lang-color);
+}
+.case-card {
+    padding-left: 1.5rem;
+    height: 100%;
+    border-left: 2px solid var(--link-color);
+}
+.case-title { color: var(--header-button-color); font-size: 1.4rem; font-weight: 700; }
+.company-link { color: var(--link-color); font-weight: bold; }
+.skills-text { font-weight: normal !important; color: var(--text-color); }
+.case-card ul, .case-card p { font-size: 0.95rem; }
+
+/* Contact Page */
+.contact-page { min-height: 60vh; display: flex; align-items: center; justify-content: center; }
+.btn-contact {
+    background-color: var(--header-button-color);
+    color: var(--background-color);
+    border-radius: 50px;
+    padding: 12px 30px;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+.btn-contact:hover {
+    background-color: transparent;
+    color: var(--header-button-color);
+    border: 1px solid var(--header-button-color);
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid var(--link-color);
+    margin-top: 4rem;
+}
+footer p { color: var(--subheading-low-color); }
