@@ -3,4 +3,4 @@ Allow: /
 Disallow: /ErrorDocuments/404.html
 Disallow: /ErrorDocuments/500.html
 Disallow: /ErrorDocuments/503.html
-Sitemap: https://yoursite.com/sitemap.xml
+Sitemap: https://github.com/drew-ssv/Product.manager-A.Semenov/blob/51a5900986270c69f1185effa466f537b5a0bc5a/sitemap.xml
