@@ -1,11 +1,11 @@
 /* Color Palette */
 :root {
-    --background-color: #FFFFF0;
-    --header-button-color: #550000;
-    --subheading-lang-color: #AB6771;
-    --subheading-low-color: #5D5D5D;
-    --text-color: #E98074;
-    --link-color: #D8C3A4;
+    --background-color: #F8F6F6; /* ранее FFFFF0 Ivory, ранее F4F2EC Pearl white */
+    --header-button-color: #550000; /* Very dark red */
+    --subheading-lang-color: #AB6771; /* Cinnapink shadowed */
+    --subheading-low-color: #5D5D5D; /* Very dark gray */
+    --text-color: #E98074; /* Softred melon */
+    --link-color: #D8C3A4; /* Dune */
     --link-hover-color: #0000FF; /* Blue */
 }
 
